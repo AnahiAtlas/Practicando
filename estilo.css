@@ -1,0 +1,47 @@
+/*margin: 0%; El atributo MARGIN es el espacio libre entre la caja y las posibles
+    cajas adyacentes
+padding: 0%; El atributo PADDING se utiliza opcionalmente para el espacio entre
+    el contenido y el borde que lo encierra
+border: 30%; El atributo BORDER es la línea que encierra completamente el
+    contenido y su relleno
+background-color: none; El atributo BACKGROUND COLOR es el color que rellena
+    el espacio ocupado por el contenido y su posible relleno
+background-image:none; El atributo BACKGROUND IMAGE es la imagen que se muestra
+    por debajo del contenido
+width; El atributo WIDTH proporciona el ancho de la imagen
+height; El atributo HEIGHT proporciona el alto de la imagen
+color: purple; El atributo COLOR define el color del texto
+(font-family): helvetica; El atributo FONT-FAMILY define la fuente del texto
+(font-size); El atributo FONT-FAMILY define el tamaño del texto
+(font-weigth); El atributo FONT-WEIGTH define el grosor de fuente del texto
+(font-style); El atributo FONT-STYLE define el estilo de fuente del texto
+(text-decoration) El atributo TEXT-DECORATION define el decoración del texto*/
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    font-size: large;
+}
+
+#contenedor{
+    background-color:antiquewhite;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.cabecera{
+    border: red solid 3px;
+}
+
+.contenido{
+    color:aquamarine
+}
+
+.destacada{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    background-color: beige;
+}

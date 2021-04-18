@@ -1,0 +1,104 @@
+<!DOCTYPE html> <!-- Tipo de lenguaje HTML(en este caso) -->
+<html lang="en"> <!-- Indica al navegador que el documento texto que esta
+    leyendo es un documento HTML. -->
+
+<head>   <!--La cabecera contiene información que no forma parte
+    del contenido de la página en sí, como el título,
+    vínculos a hojas de estilos CSS, información para
+    robots de búsqueda, scripts, etc.-->
+        <meta charset="UTF-8"> <!-- Info sobre la tipografía. Unicode proporciona un número único para cada carácter,
+            sin importar la plataforma, ni el programa, ni la lengua.-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   <title>Anahi</title> <!-- Titulo para la pestaña de la página-->
+   <link rel="stylesheet" href="estilo.css"> <!-- Mediante la etiqueta LINK puedo
+enlazar un archivo .css -->
+
+    <style> /* La etiqueta STYLE se utiliza para incluir CSS en el documento HTML
+y darle estilo al documento. Solo se puede incluir dentro del HEAD*/
+h1 { /*Le doy estilo a todo lo que tenga el tag H1*/
+    color: purple;
+}
+p {color: blue;} /*Le doy estilo a todo lo que tenga el tag P*/
+</style>
+</head>
+<main> <!-- Este elemento se utiliza para organizar los elementos de la página -->
+    <body> <!--Cuerpo de la página donde se despliega el contenido
+        global. Esta etiqueta se abre luego de cerrar el
+        encabezamiento con </head> y se extiende hasta el
+        final de la página, cerrándose antes de </html>.
+         Todo lo que está acá es lo que el usuario vera -->
+        <header> <!--El elemento HEADER es utilizado para el encabezado de la pagina-->
+    <nav><!--Barra de navegacion donde tenemos las anclas-->
+    <ul><!--Lista desordenada de cosas (indice)-->
+<li>Home<!--Elementos de la lista--> </li>  
+<li>Ventas<!--Elementos de la lista--> </li>  
+    </ul>
+    
+    </nav>
+        </header>
+        <h1 align="center">
+        <!--El elemento ALIGN es utilizado para ubicar el texto, centro / derecha / izquierda -->
+                    <i>Mi nombre es Anahi</i>, estoy aprendiendo a programar
+        </h1>
+    <p> <!--El elemento P es utilizado para comenzar un párrafo -->
+        Esto debe aparecer en verde
+        <a href="https://app.asana.com/"> <b>Link a Asana</b> </a> 
+        <!--El elemento A es utilizado como ancla para que el usuario se vincule a
+            otra ubicación -->
+        <!--El atributo HREF contiene la URL a la que deseamos enlazar -->
+         </p> 
+        <br> <!-- Salto de pagina -->
+    <p> <a href= "paginas/Ventas.html"> <u>Ventas</u> </a> 
+        </p>    
+     
+    <hr> <!-- El elemento HR marca una línea y contiene diversos atributos-->
+<hr align="center"> <!-- El atributo ALIGN establece la regla de alineación de la
+    línea-->
+<hr noshade=" "> <!--El atributo NOSHADE quita el sombreado predeterminado de la
+    línea-->
+<hr width="25%"> <!--El atributo WIDTH permite especificar el ancho de la regla
+(en píxeles o porcentaje)-->
+<hr size="5"> <!--El atributo SIZE permite especificar el alto de la regla (en
+    píxeles)-->
+        <hr align="left" width="25%" size="5"> <!-- Marca una línea -->
+
+
+    <pre> <!--El elemento PRE es utilizado para incluir un texto que aparecerá tal cual
+    lo escriba en el documento-->
+       Hola, esto es
+       un texto preformateado
+       es decir se ve como
+       yo lo escribo.
+    </pre>
+    <hr> <!-- Marca una línea -->
+    
+    <i> Italica</i>
+    <!--El elemento I es utilizado para incluir el tipo de letra en ITALICA -->
+    <br>
+    <!--El elemento BR es utilizado para incluir un salto de línea en el documento-->
+    <b>negrita</b>
+    <!--El elemento B es utilizado para incluir el tipo de letra en NEGRITA -->
+    <br>
+    <u>subrayado</u>
+    <!--El elemento U es utilizado para incluir el tipo de letra SUBRAYADO -->
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+    <!--Los elementos Hx son utilizados para incluir el tamaño de letra de los
+        encabezados del cuerpo-->
+</main>
+<footer> <!-- Etiqueta utilizada para el pie de página -->
+    <address>Mendoza Argentina </address> 
+    <hr>    
+    <a href= "mailto:mail@gmail.com"> Mail </a>
+    <br>
+    <a href="tel: +5491100000000"> Whatsapp </a>
+    <a href="Producto.html"> Voy a productos></a>
+</footer>
+</body>
+</html>
