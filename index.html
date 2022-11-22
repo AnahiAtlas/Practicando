@@ -1,0 +1,134 @@
+<!DOCTYPE html> <!-- INFORMACION PARA EL NAVEGADOR -->
+
+<html lang="en"> <!-- INFORMACION DEL LENGUAJE PARA QUE EL NAVEGADOR CONOZCA EL TIPO DE DOCUMENTO QUE ESTAMOS ESCRIBIENDO -->
+
+
+<head> <!-- INFORMACION PARA EL NAVEGADOR -->
+
+
+
+    <meta charset="UTF-8"> <!-- CODIFICACION UNICODE QUE SOPORTA DISTINTOS TIPOS DE CARACTERES EN DISTINTAS LENGUAS - TIPOGRAFIA  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- ADAPTADOR PARA QUE SEA COMPATIBLE CON BUSCADORES -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- PARA QUE LA PÁGINA SEA RESPONSIVE -->
+
+    <title> Práctica </title> <!-- TITULO QUE SE MUESTRA EN LA PESTAÑA DEL NAVEGADOR -->
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- AGREGUEMOS ESTILOS EN HTML-->
+    <style>
+      h1{
+        color: blueviolet;
+      }
+      p{
+        color: chartreuse;
+      }
+    </style>
+
+</head>
+
+
+<body> <!-- INFORMACION QUE SE VA A VISUALIZAR EN LA PÁGINA -->
+  <header> <!-- ENCABEZADO DEL DOCUMENTO -->
+    <nav> <!-- BARRA DE NAVEGACIÓN DE MI PÁGINA -->
+      <UL> <!-- ES UNA LISTA DESORDENADA -->
+        <li> <!-- ELEMENTOS DE MI LISTA-->
+          TAGS        </li>
+        <li>           ATRIBUTOS        </li>
+        <li>           REDIRECCIONAMIENTOS        </li>
+        <li>           ANCLAS        </li>
+      </UL>
+    </nav>
+  </header>
+
+  <main> <!-- Dentro del main va toda mi página -->
+
+    Hola Mundo sin etiqueta
+  <h1 align="center">
+    Hola Mundo con etiqueta H1 y atributo align 
+  </h1>  
+  <h2>
+    Hola Mundo con etiqueta H2
+  </h2>  
+  <h3>
+    Hola Mundo con etiqueta H3
+  </h3>  
+  <h4>
+    Hola Mundo con etiqueta H4
+  </h4>  
+  <h5>
+    Hola Mundo con etiqueta H5
+  </h5>  
+  <h6>
+    Hola Mundo con etiqueta H6
+  </h6>  
+  <p>
+    Soy un párrafo con etiqueta p
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto tempore, eligendi voluptatibus labore sit asperiores praesentium ab repellendus possimus! Aliquid veritatis magni soluta placeat nostrum consequuntur reprehenderit voluptatum numquam velit.
+  </p>  
+  <a>
+    Soy un ancla con etiqueta a. Doy la opción de ingresar a un link externo o interno con el atributo HREF que hace una REFERENCIA al link donde quiera ir.
+  </a>  
+  <a href="https://www.google.com/?hl=es">
+    Soy un ancla con etiqueta a con atributo HREF. Haceme click y vamo' a google
+  </a>  
+  <p>
+    Y que onda si meto un ancla con referencia en el medio de un párrafo?
+    <a href="https://www.google.com/?hl=es">        Haceme click y vamo' a google    </a>
+    Tengo que meter el tag A y cerrarlo DENTRO del tag p. Esto se llama ETIQUETAS ANIDADAS.
+  </p>
+  <p>
+    Y que onda si meto un ancla con referencia en el medio de un párrafo?
+    <a href="refInterna.html">        Haceme click y vamo' a una referencia interna    </a>
+    Tengo que meter el tag A y cerrarlo DENTRO del tag p. Esto se llama ETIQUETAS ANIDADAS.
+  </p>
+  <pre>
+    Texto preformateado.
+    Significa que si yo pongo un enter
+    lo va a respetar.
+    Usando el tag P lo que hace es escribir todo de corrido,
+    un salto de línea deberíamos hacerlo con el tag BR.
+  </pre>
+  <br>
+  <p> El tag BR no tiene un tag de cierre porque solamente es un salto de línea. (enter)
+    Como estoy entre un tag P no me marca el Enter como si mismo, sino que me escribe de corrido.</p>
+   <hr>
+   <p> La etiqueta HR me sirve para marcar una línea visible entre los párrafos. </p>
+   <br>
+   <br>
+   <br>
+   <br>
+  <pre>
+    Si bien el salto de línea BR nos da una separación de líneas,
+    y se puede colocar varias veces. NO se recomienda hacerlo.
+    Para realizar estas separaciones es mejor utilizar css.
+  </pre>
+  <i> También podemos escribir en Itálica </i>
+  <u> También podemos escribir subrayando </u>
+  <b> También podemos escribir en Negrita </b>
+  
+  <pre>
+    Si yo coloco el mismo texto en tag anidados con P adelante,
+    se formatea cada 'párrafo' uno debajo del otro.
+  </pre>
+
+  <p><i> También podemos escribir en Itálica </i></p>
+  <p><u> También podemos escribir subrayando </u></p>
+  <p><b> También podemos escribir en Negrita </b></p>
+
+</main>
+
+<hr align="left" width="25%" size="5">
+  <footer> <!-- ESTO ES EL FOOTER-->
+    <address>
+      Buenos Aires, Argentina
+      <a href="mailto:magolla@magollalandia.com"> Mail a magolla </a>
+      <a href="tel:+5491111554488"> Llama a poroto </a>
+    </address>
+
+  </footer>
+
+</body>
+
+
+</html>
